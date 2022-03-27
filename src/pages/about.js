@@ -100,7 +100,7 @@ function About() {
           ABOUT US
         </Typography>
         <Typography variant='h5' className={classes.munTextProperty}>
-          JECRC MUN 2020
+          JECRC MUN 2022
         </Typography>
       </Banner>
       <Grid className={classnames([classes.container, 'justify-center'])}>

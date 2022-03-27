@@ -141,7 +141,7 @@ export default () => {
         </div> */}
         <div className='my-5'>
           <Typography className={classes.munTextProperty}>
-            JECRC MUN 2020
+            JECRC MUN 2022
           </Typography>
           <Typography className={classes.diplomacyTextProperty}>
             Diplomacy At It’s Zenith

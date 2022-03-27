@@ -34,13 +34,17 @@ const CoronaWarning = () => {
   return (
     <Grid item sm={9} md={7} lg={5} className={classes.root}>
       <Typography variant='h3' className={classes.heading}>
-        event postponed!
+      Coming Soon!
       </Typography>
-      <Typography variant='h5' className={classes.text}>
+      {/* <Typography variant='h5' className={classes.text}>
         Due to the unforeseen circumstances across the country in the wake of
         COVID-19, JECRC MUN 2020 has to be postponed. The Secretariat's prime
         responsibility is to ensure everyone's safety. Updates about the
         conference will be dissipated soon.
+        <br /> Stay safe and stay tuned with us!
+      </Typography> */}
+      <Typography variant='h5' className={classes.text}>
+        We are ready to make a change! Are you? 
         <br /> Stay safe and stay tuned with us!
       </Typography>
     </Grid>
