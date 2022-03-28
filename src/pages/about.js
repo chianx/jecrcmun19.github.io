@@ -62,6 +62,11 @@ const useStyles = makeStyles(theme => ({
   },
 }))
 
+// 'https://script.google.com/macros/s/AKfycbyNtYRjDE5kMuZSot2WDJ81ISK6qDZ5llid6ZuzFsQ03DhzjB1N/exec',
+// 'https://sheetdb.io/api/v1/ss19wkkukx3f4',
+// going to https://docs.google.com/spreadsheets/d/1_JSE3pFTA9FAt8hD5aRRpBvHOwAdl3Zrnmde-F6Vj58/
+
+
 function About() {
   const classes = useStyles()
   const theme = useTheme()
@@ -153,7 +158,7 @@ function About() {
                   Nations Commission on Status of Women (UN-CSW), Lok Sabha, and
                   International Press. The recent editions have also witnessed
                   All India Political Parties Meet (AIPPM). In the upcoming
-                  ninth edition of 2020, we are also unveiling an addition as
+                  ninth edition of 2022, we are also unveiling an addition as
                   the World Health Organization (WHO).
                 </Typography>
                 <Typography className='text-justify py-5'>
@@ -162,7 +167,7 @@ function About() {
                   performances, all credited to the correct MUN environment we
                   offer. Our success as a MUN community is attributed to our
                   delegates, and we wish to improve and attain the pinnacle of
-                  perfection for their sake. This year at JECRC MUN 2020, the
+                  perfection for their sake. This year at JECRC MUN 2022, the
                   experience will be a never before one of its kind adventure
                   for the delegates. Like always, only grander!
                 </Typography>

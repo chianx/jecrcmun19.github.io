@@ -84,8 +84,12 @@ function Committees() {
           className='mx-auto pb-5'
           alt='---------------------'
         />
+
+<Typography variant='h5' className='pt-5 text-white'>
+          To be announced soon....
+        </Typography>
       </Fade>
-      <Grid container justify='center'>
+      {/* <Grid container justify='center'>
         {CommitteesData.map(data => (
           <Grid key={data.title} item className={classes.content}>
             <img src={data.img} alt={data.img} className={classes.image} />
@@ -128,7 +132,7 @@ function Committees() {
             View Country Matrix
           </Button>
         </Grid>
-      </Grid>
+      </Grid> */}
     </div>
   )
 }

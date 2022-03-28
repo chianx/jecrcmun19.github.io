@@ -19,14 +19,15 @@ const FormCompleted = ({ className = '', ...props }) => {
         </Typography>
         <div className='mt-4'>
           <Typography variant='subtitle2' component='p' paragraph>
-            Pourush Choudhary: <Link href='tel:9413900468'>9413900468</Link>
+            Shrey Bhargava: <Link href='tel:8955332841'>8955332841</Link>
           </Typography>
           <Typography variant='subtitle2' component='p' paragraph>
-            Shrey Bhargava: <Link href='tel:8955332841'>8955332841</Link>
+            Sarthak Agarwal <Link href='tel:8630072214'>8630072214</Link>
           </Typography>
         </div>
       </div>
     </ContentBox>
   )
 }
+
 export default FormCompleted

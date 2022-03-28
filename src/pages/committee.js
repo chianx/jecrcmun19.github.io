@@ -120,7 +120,7 @@ function Committee() {
           COMMITTEES
         </Typography>
         <Typography className={classes.munTextProperty} variant='h5'>
-          JECRC MUN 2020
+          JECRC MUN 2022
         </Typography>
       </Banner>
       <Grid

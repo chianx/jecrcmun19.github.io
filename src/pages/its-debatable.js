@@ -70,7 +70,7 @@ export default () => {
           It's Debatable - An Online Debate
         </Typography>
         <Typography component='h3' className={classes.munTextProperty}>
-          JECRC MUN 2020
+          JECRC MUN 2022
         </Typography>
       </Banner>
       <DebateForm />

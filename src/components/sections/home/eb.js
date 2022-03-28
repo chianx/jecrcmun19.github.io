@@ -165,9 +165,12 @@ function ExecutiveBoard() {
           className='mx-auto pb-5'
           alt='---------------------'
         />
+        <Typography variant='h4' className='pt-5'>
+          To be announced soon....
+        </Typography>
       </Fade>
-      <Fade bottom>
-        <Grid container justify='center' className={classes.root}>
+      {/*<Fade bottom>
+         <Grid container justify='center' className={classes.root}>
           <Swiper {...ebSwiperParams}>
             {executives.map((value, index) => (
               <Grid key={index} container className='mb-16' justify='center'>
@@ -190,7 +193,17 @@ function ExecutiveBoard() {
                       alt='JECRC MUN eb'
                       className={classnames(['mx-auto', classes.blogImage])}
                     />
-
+  <Typography variant='h4' className='pt-5'>
+          Executive Board
+        </Typography>
+        <img
+          src='/images/line.png'
+          className='mx-auto pb-5'
+          alt='---------------------'
+        />
+        <Typography variant='h4' className='pt-5'>
+          To be announced soon....
+        </Typography>
                     <Grid
                       container
                       alignItems='flex-end'
@@ -251,7 +264,7 @@ function ExecutiveBoard() {
         >
           Our Executive Board
         </Button>
-      </div>
+      </div> */}
     </div>
   )
 }

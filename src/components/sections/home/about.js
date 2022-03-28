@@ -51,8 +51,8 @@ export default () => {
   const theme = useTheme()
   const classes = useStyles()
   const stats = [
-    { count: '1700+', value: 'DELEGATES' },
-    { count: '20+', value: 'INTERNATIONAL DELEGATES' },
+    { count: '2000+', value: 'DELEGATES' },
+    { count: '100+', value: 'INTERNATIONAL DELEGATES' },
     { count: '700+', value: 'PARTICIPATION INSTITUTES' },
     { count: '13 LAKH+', value: 'MASSIVE OUTREACH' },
   ]
@@ -97,7 +97,7 @@ export default () => {
                 Inaugurated by the eminent educationist Shri Kul Bhushan
                 Kothari, JECRC MUN has spiraled out exponentially to achieve the
                 pinnacle of growth. With the zealous efforts of extensive
-                organizing committees over the 8 years of conducting MUN
+                organizing committees over the 9 years of conducting MUN
                 conferences, we have gained a lot of momentum inviting immense
                 participation from across the country.
               </Typography>
@@ -173,7 +173,7 @@ export default () => {
                   classes.content,
                 ])}
               >
-                JECRC MUN 2020 is now in collaboration with the United Nations
+                JECRC MUN 2022 is now in collaboration with the United Nations
                 Information Centre (UNIC) for India and Bhutan. The United
                 Nations Information Centre for India and Bhutan is based in New
                 Delhi, India and is one of 63 United Nations Information Centres

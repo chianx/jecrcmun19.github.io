@@ -113,8 +113,11 @@ const OurChiefGuest = () => {
           className='mx-auto pb-10'
           alt='---------------------'
         />
+        <Typography className='text-white pt-10' variant='h4'>
+          To be announced....
+        </Typography>
       </Fade>
-      {chiefGuestData.map((data, index) => (
+      {/* {chiefGuestData.map((data, index) => (
         <Grid
           key={data.name[0]}
           container
@@ -150,7 +153,7 @@ const OurChiefGuest = () => {
             </React.Fragment>
           )}
         </Grid>
-      ))}
+      ))} */}
       <div className='mt-10'>
         <Button
           type='submit'

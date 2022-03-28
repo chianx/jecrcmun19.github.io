@@ -14,6 +14,7 @@ import classnames from 'classnames'
 const useStyles = makeStyles(theme => ({
   footer: {
     textAlign: 'center',
+    // background: 'images/footer-bg',
     backgroundImage: `linear-gradient(${theme.palette.glare.main}, ${theme.palette.glare.main}), url(/images/footer-bg.png)`,
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
@@ -46,7 +47,7 @@ function Footer(props) {
           className='my-10'
         >
           <img
-            src='/images/munLogo.png'
+            src='/images/White-MUN-LOGO.png'
             width='38px'
             className='mr-5'
             alt='MUN Logo'
@@ -56,7 +57,7 @@ function Footer(props) {
             display='inline'
             variant='h5'
           >
-            JECRC MUN 2020
+            JECRC MUN 2022
           </Typography>
         </Grid>
         <Grid
@@ -99,21 +100,16 @@ function Footer(props) {
             >
               Contacts
             </Typography>
-            <Typography>Porush Choudhary</Typography>
+            <Typography>Shrey Bhargava</Typography>
             <Typography>
-              <MateriaLink className={classes.phoneText} href='tel:9413900468'>
-                9413900468
+              <MateriaLink className={classes.phoneText} href='tel:8955332841'>
+                8955332841
               </MateriaLink>
             </Typography>
+            <Typography>Sarthak Agarwal</Typography>
             <Typography>
-              <MateriaLink className={classes.phoneText} href='tel:7976605097'>
-                7976605097
-              </MateriaLink>
-            </Typography>
-            <Typography>Himanshu Damani</Typography>
-            <Typography>
-              <MateriaLink className={classes.phoneText} href='tel:7976780546'>
-                7976780546
+              <MateriaLink className={classes.phoneText} href='tel:8630072214'>
+                8630072214
               </MateriaLink>
             </Typography>
           </Grid>

@@ -90,7 +90,7 @@ function UNIC() {
           COLLABORATION WITH UNIC
         </Typography>
         <Typography variant='h5' className={classes.munTextProperty}>
-          JECRC MUN 2020
+          JECRC MUN 2022
         </Typography>
       </Banner>
       <Grid className={classes.container} justify='center'>
@@ -110,7 +110,7 @@ function UNIC() {
             <Grid item md={10}>
               <Fade bottom cascade>
                 <Typography className='text-justify py-5'>
-                  JECRC MUN 2020 is now in collaboration with the United Nations
+                  JECRC MUN 2022 is now in collaboration with the United Nations
                   Information Centre (UNIC) for India and Bhutan. The United
                   Nations Information Centre for India and Bhutan is based in
                   New Delhi, India and is one of 63 United Nations Information
@@ -125,7 +125,7 @@ function UNIC() {
                   communication easier and more convenient. It maintains
                   off-line resources such as libraries and also looks after
                   digital information resources. The collaboration of JECRC MUN
-                  2020 and UNIC will prove to be remarkably beneficial for the
+                  2022 and UNIC will prove to be remarkably beneficial for the
                   delegates.
                 </Typography>
                 <Typography className='text-justify py-5'>

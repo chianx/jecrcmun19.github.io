@@ -124,7 +124,7 @@ export default function Header(props) {
             <div className={brandClasses}>
               <Link to='/'>
                 <img
-                  src='/images/munLogo.png'
+                  src='/images/White-MUN-LOGO.png'
                   alt='Mun Logo'
                   className={classes.imageProperties}
                 />

@@ -130,14 +130,14 @@ export default () => {
         {logoMatches && (
           <Fade top>
             <img
-              src='images/mun-logo-white.png'
+              src='images/White-MUN-LOGO.png'
               className={classnames(['mx-auto mt-10 w-auto', classes.munLogo])}
               alt='logo'
             />
           </Fade>
         )}
         {/* <div className='self-start self-center'>
-          {matches && <Countdown date='11 April 2020 09:00:000 GMT+05:30' />}
+          {matches && <Countdown date='11 April 2022 09:00:000 GMT+05:30' />}
         </div> */}
         <div className='my-5'>
           <Typography className={classes.munTextProperty}>
@@ -162,7 +162,7 @@ export default () => {
             className={classnames('text-white', classes.FontInfo)}
             variant='h6'
           >
-            <CalendarIcon color='primary' /> 11th - 12th April 2020
+            <CalendarIcon color='primary' /> 11th - 12th April 2022
           </Typography>
         </div> */}
         <div>
@@ -252,7 +252,7 @@ export default () => {
         id='executive-board'
         className='pt-10'
         style={{
-          minHeight: '100vh',
+          minHeight: '40vh',
           background: theme.palette.background.pinkish,
         }}
       >

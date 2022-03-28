@@ -77,32 +77,32 @@ function MobileViewDrawer(props) {
       ],
     },
     { name: 'COMMITTEES', link: '/#committees' },
-    {
-      name: 'REGISTRATIONS',
-      link: '/#registrations',
-      items: [
-        {
-          name: 'DELEGATE REGISTRATIONS',
-          to: '/apply/delegate-registration',
-        },
-        {
-          name: 'CAMPUS AMBASSADOR',
-          to: '/apply/campus-ambassador-application',
-        },
-        {
-          name: 'INTERNATIONAL PRESS',
-          to: '/apply/international-press-application',
-        },
-        {
-          name: 'EXECUTIVE BOARD',
-          to: '/#registrations',
-        },
-        {
-          name: "IT'S DEBATABLE",
-          to: '/its-debatable',
-        },
-      ],
-    },
+    // {
+    //   name: 'REGISTRATIONS',
+    //   link: '/#registrations',
+    //   items: [
+    //     {
+    //       name: 'DELEGATE REGISTRATIONS',
+    //       to: '/apply/delegate-registration',
+    //     },
+    //     {
+    //       name: 'CAMPUS AMBASSADOR',
+    //       to: '/apply/campus-ambassador-application',
+    //     },
+    //     {
+    //       name: 'INTERNATIONAL PRESS',
+    //       to: '/apply/international-press-application',
+    //     },
+    //     {
+    //       name: 'EXECUTIVE BOARD',
+    //       to: '/#registrations',
+    //     },
+    //     {
+    //       name: "IT'S DEBATABLE",
+    //       to: '/its-debatable',
+    //     },
+    //   ],
+    // },
     { name: 'RESOURCES', link: '/#resources' },
     { name: 'GALLERY', link: '/gallery' },
     { name: 'CONTACT', link: '/contact' },
@@ -136,7 +136,8 @@ function MobileViewDrawer(props) {
               className={classes.listItem}
             >
               <ListItemText primary={text.name} />
-              {['ABOUT', 'REGISTRATIONS'].includes(text.name) ? (
+              {/* Add 'REGISTERATIONS' in below array like ABOUT for adding registerations in mobile view*/}
+              {['ABOUT'].includes(text.name) ? (
                 openDropDown && text.name === openFor ? (
                   <ExpandLess onClick={handleDropDownClose} />
                 ) : (

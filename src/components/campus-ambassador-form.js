@@ -78,7 +78,7 @@ export default function CampusAmbassadorForm() {
             <ol className='ml-4 list-decimal'>
               <li>
                 <Typography variant='body1' component='p' paragraph>
-                  Promote JECRC MUN 2020 to your institution.
+                  Promote JECRC MUN 2022 to your institution.
                 </Typography>
               </li>
               <li>
@@ -118,7 +118,7 @@ export default function CampusAmbassadorForm() {
             <li>
               <Typography variant='body1' component='p' paragraph>
                 Any suggestions or queries by Ambassadors regarding JECRC MUN
-                2020 will be responded immediately by the Secretariat.
+                2022 will be responded immediately by the Secretariat.
               </Typography>
             </li>
           </ol> */}

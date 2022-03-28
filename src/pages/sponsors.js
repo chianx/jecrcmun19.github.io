@@ -92,7 +92,8 @@ function SponsorsForm() {
     const form = e.target
     setLoading(true)
     fetch(
-      'https://script.google.com/macros/s/AKfycbxXJsDB8OLnfjFxnc93dM8owvtGf62c7PfsQVJ5LVHBxGa6B4o/exec',
+      'https://sheetdb.io/api/v1/d3z82u6ubns09',
+      // goes to https://docs.google.com/spreadsheets/d/1WB7KGJGi80VrNhbol7eEWF96n8W7Ve4XWmil1l8mj5I/edit#gid=0
       {
         method: 'POST',
         body: new FormData(form),
@@ -240,7 +241,7 @@ function Sponsors(props) {
           OUR PREVIOUS SPONSORS
         </Typography>
         <Typography className={classes.munTextProperty} variant='h5'>
-          JECRC MUN 2020
+          JECRC MUN 2022
         </Typography>
       </Banner>
       <Grid

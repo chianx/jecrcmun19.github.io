@@ -182,7 +182,7 @@ function ExecutiveBoard(props) {
           EXECUTIVE BOARD
         </Typography>
         <Typography className='text-white' variant='h5'>
-          JECRC MUN 2020
+          JECRC MUN 2022
         </Typography>
       </Banner>
       <div

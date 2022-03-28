@@ -88,19 +88,20 @@ function Registrations(props) {
                 alt={section.title}
                 className={classnames(['mx-auto my-10', classes.imgStyle])}
               />
-              <div className='w-full my-5'>
+              {/* <div className='w-full my-5'>
                 <Typography className='text-white'>
                   {section.info ? section.info : null}
                 </Typography>
-              </div>
+              </div> */}
               <div className='mt-auto mb-10'>
                 <Button
                   variant='outlined'
-                  component={Link}
-                  to={section.btnLink}
+                  // component={Link}
+                  // to={section.btnLink}
                   className={classes.button}
                 >
-                  {section.btn}
+                  Opening Soon
+                  {/* {section.btn} */}
                 </Button>
               </div>
             </Card>

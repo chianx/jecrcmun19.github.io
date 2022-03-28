@@ -13,15 +13,15 @@ export default function TopLayout(props) {
           name='viewport'
           content='minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no'
         />
-        <title>JECRC MUN 2020</title>
-        <meta name='title' content='JECRC MUN 2020' />
+        <title>JECRC MUN 2022</title>
+        <meta name='title' content='JECRC MUN 2022' />
         <meta
           name='description'
           content='Model UN is an educational simulation that showcases the leadership and diplomatic skill of students by engaging them into research,debates and discussions.'
         />
         <meta name='language' content='English' />
         <meta name='author' content='JECRC Foundation' />
-        <meta property='og:title' content='JECRC MUN 2020' />
+        <meta property='og:title' content='JECRC MUN 2022' />
         <meta property='og:url' content='https://www.jecrcmun.in/' />
         <meta
           property='og:description'

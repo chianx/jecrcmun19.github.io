@@ -104,7 +104,7 @@ export default function PressApplicationForm() {
         <ContentBox className={classnames(['my-16', classes.content])}>
           <div>
             <Typography variant='body1' component='p' paragraph>
-              Conference Date : 11th - 12th April 2020
+              Conference Date : 11th - 12th April 2022
             </Typography>
             <Typography variant='body1' component='p' paragraph>
               Apply As:

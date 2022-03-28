@@ -8,7 +8,7 @@ const useStyles = makeStyles(theme => ({
     margin: 'auto auto',
     marginTop: theme.spacing(6),
     marginBottom: theme.spacing(6),
-    padding: '2px',
+    padding: '10px',
     paddingTop: theme.spacing(2),
     border: '2px solid #999',
     [theme.breakpoints.down('xs')]: {
@@ -32,19 +32,13 @@ const useStyles = makeStyles(theme => ({
 const CoronaWarning = () => {
   const classes = useStyles()
   return (
-    <Grid item sm={9} md={7} lg={5} className={classes.root}>
+    <Grid item sm={9} md={7} lg={8} className={classes.root}>
       <Typography variant='h3' className={classes.heading}>
-      Coming Soon!
+        Coming soon!
       </Typography>
-      {/* <Typography variant='h5' className={classes.text}>
-        Due to the unforeseen circumstances across the country in the wake of
-        COVID-19, JECRC MUN 2020 has to be postponed. The Secretariat's prime
-        responsibility is to ensure everyone's safety. Updates about the
-        conference will be dissipated soon.
-        <br /> Stay safe and stay tuned with us!
-      </Typography> */}
       <Typography variant='h5' className={classes.text}>
-        We are ready to make a change! Are you? 
+        We are ready to go... 
+        Are you?
         <br /> Stay safe and stay tuned with us!
       </Typography>
     </Grid>

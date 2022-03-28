@@ -83,7 +83,7 @@ function Contact(props) {
     const form = e.target
     setLoading(true)
     fetch(
-      'https://script.google.com/macros/s/AKfycbyNtYRjDE5kMuZSot2WDJ81ISK6qDZ5llid6ZuzFsQ03DhzjB1N/exec',
+      'https://sheetdb.io/api/v1/epp1tm6xfrm63',
       {
         method: 'POST',
         body: new FormData(form),
@@ -123,7 +123,7 @@ function Contact(props) {
         </Typography>
 
         <Typography className={classes.munTextProperty} variant='h5'>
-          JECRC MUN 2020
+          JECRC MUN 2022
         </Typography>
       </Banner>
       <Grid

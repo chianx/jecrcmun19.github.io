@@ -205,7 +205,7 @@ export default function DelegatePriorityForm() {
         <ContentBox className={classnames(['my-16', classes.content])}>
           <div>
             <Typography variant='body1' component='p' paragraph>
-              Conference Date : 11th-12th April 2020
+              Conference Date : 11th-12th April 2022
             </Typography>
             <Typography variant='body1' component='p' paragraph>
               Committees to be simulated this year are :

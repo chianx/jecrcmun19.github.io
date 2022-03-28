@@ -48,33 +48,33 @@ const dropdownList = {
     { name: 'OUR SPONSORS', link: '/sponsors', type: 'gatsby' },
     { name: 'EXECUTIVE BOARD', link: '/#executive-board', type: 'gatsby' },
   ],
-  registrations: [
-    {
-      name: 'DELEGATE REGISTRATIONS',
-      link: '/apply/delegate-registration',
-      type: 'gatsby',
-    },
-    {
-      name: 'INTERNATIONAL PRESS',
-      link: '/apply/international-press-application',
-      type: 'gatsby',
-    },
-    {
-      name: 'CAMPUS AMBASSADOR',
-      link: '/apply/campus-ambassador-application',
-      type: 'gatsby',
-    },
-    {
-      name: 'EXECUTIVE BOARD',
-      link: '/#registrations',
-      type: 'gatsby',
-    },
-    {
-      name: "IT'S DEBATABLE",
-      link: '/its-debatable',
-      type: 'gatsby',
-    },
-  ],
+  // registrations: [
+  //   {
+  //     name: 'DELEGATE REGISTRATIONS',
+  //     link: '/apply/delegate-registration',
+  //     type: 'gatsby',
+  //   },
+  //   {
+  //     name: 'INTERNATIONAL PRESS',
+  //     link: '/apply/international-press-application',
+  //     type: 'gatsby',
+  //   },
+  //   {
+  //     name: 'CAMPUS AMBASSADOR',
+  //     link: '/apply/campus-ambassador-application',
+  //     type: 'gatsby',
+  //   },
+  //   {
+  //     name: 'EXECUTIVE BOARD',
+  //     link: '/#registrations',
+  //     type: 'gatsby',
+  //   },
+  //   {
+  //     name: "IT'S DEBATABLE",
+  //     link: '/its-debatable',
+  //     type: 'gatsby',
+  //   },
+  // ],
 }
 
 const useDropdownStyles = makeStyles(theme => ({
@@ -165,7 +165,7 @@ function NavBarWeb(props) {
           <Dropdown name='about' handleClose={handleClose} />
         )}
       </ListItem>
-      <ListItem
+      {/* <ListItem
         component='div'
         onMouseLeave={handleClose}
         onMouseOver={e => handleOnMouse('registrations')}
@@ -184,7 +184,7 @@ function NavBarWeb(props) {
         {open && current === 'registrations' && (
           <Dropdown name='registrations' handleClose={handleClose} />
         )}
-      </ListItem>
+      </ListItem> */}
       <ListItem
         component={MaterialLink}
         underline='none'
